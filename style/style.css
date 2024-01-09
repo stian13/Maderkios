@@ -1,0 +1,220 @@
+:root{
+    --cafe-oscuro: #422B13;
+    --verde-biche: #94C318;
+    --blanco-verde: #F5FFDC;
+    --cafe-claro: #9E672C;
+    /*fontsise*/
+    --textos : 1.6rem;
+    --titulos : 2rem;
+    --textosG : 3.2rem;
+    --titulosG : 3.6rem;
+
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+.centradoTodal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blanco-verde);
+}
+    /*CABECERA*/
+.centradoPrincipal{
+    width: 95%;
+    min-width: 320px;
+}
+/*logo*/
+.cabecera-Conten .conten-logo{
+    margin: 10px 0 10px 0;
+}
+.cabecera-Conten .conten-logo h1{
+    color: var(--cafe-claro);
+    font-size: var(--titulos);
+}
+.cabecera-Conten .conten-logo h1 span{
+    color: var(--verde-biche);
+}
+/*Section Slider*/
+.cartelOne{
+    display: flex;
+    justify-content: center;
+}
+
+.cartelOne .conten-frase{
+    width: 100%;
+    background-color: var(--cafe-oscuro);
+    border-radius: 20px;
+
+}
+.cartelOne .conten-frase p{
+    text-align: center;
+    font-size: var(--titulosG);
+    color: var(--blanco-verde);
+    padding: 8% 0 2% 0;
+
+}
+.cartelOne .conten-frase .conten-plantas{
+    display: flex;
+    justify-content: space-between;
+}
+.cartelOne .conten-frase .conten-plantas img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+/*Anuncio*/
+.other-Cartel{
+    position: relative;
+    background-image: url(/acces/fondos/amacaMaderos.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    border-radius: 20px;
+    border: solid var(--cafe-oscuro) 1px;
+}
+.enunciado{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-size: var(--titulos);
+    width: 85%;
+    min-width: 320px;
+    
+}
+.enunciado p{
+    background-color: var(--verde-biche);
+    border-radius: 20px;
+    border: solid var(--cafe-oscuro) 1px;
+    color: var(--cafe-oscuro);
+}
+
+
+    /*Menu Pricinpal*/
+
+/* Nuestro Oficio - Nuestra Vision - Nuestra Mision */
+.contentCard{
+    width: 100%;
+    background-color: var(--verde-biche);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 20px;
+    margin-top: 8%;
+}
+.contentCard__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8%;
+}
+.contentCard__img{
+    background-color: var(--cafe-oscuro);
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentCard__img img{
+    width: 65%;
+    min-width: 40px;
+    padding: 2%;
+    
+}
+
+/*Mensaje*/
+.card-Mensaje{
+    background-image: url(/acces/fondos/cabañitaMaderkios.jpg);
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: 8%;
+    background-size: cover;
+    border-radius: 20px;
+    background-position-y: 20%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+.capa-Verde{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(113, 147, 18, 0.41) 0%, rgba(148, 195, 24, 0.41) 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+}
+.card-Mensaje h3{
+    position: absolute;
+    top: 45%;
+}
+
+.logoMaderkiosC{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logoMaderkiosC img{
+    width: 70%;
+    padding: 10%;
+
+}
+
+    /*Footer*/
+
+.footer{
+    width: 100%;
+    background-color: var(--verde-biche);
+    color: var(--blanco-verde);
+}
+.footer h2{
+    text-align: center;
+    padding-top: 2%;
+
+}
+.footer__contactos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.footer__contactos .redes--content .imgRedes{
+    width: 20px;
+    
+}
+/*------------------------*/
+.titulosP{
+    font-size: var(--titulos);
+}
+.textosP{
+    font-size: var(--textos);
+
+}
+.titulosG{
+    font-size: var(--titulosG);
+
+}
+.textosPG{
+    font-size: var(--textosG);
+
+}
+
+.colorBlancoL{
+    color: var(--blanco-verde);
+}
+.colorcafeOscuroL{
+    color: var(--cafe-oscuro);
+}
