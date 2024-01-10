@@ -1,0 +1,80 @@
+        /*CABECERA*/
+/*logo*/
+.cabecera-Conten .conten-logo h1{
+    font-size: 2.6rem;
+}
+.centradoPrincipal{
+    width: 85%;
+    min-width: 320px;
+}
+/*Section Slider*/
+.cartelOne{
+    display: none;
+}
+.cartelTwo{
+    background-image: url(../acces/fondos/casitaPicinaMaderkios.jpg);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-position-y: 50%;
+    background-size: cover;
+    position: relative;
+    
+    border: solid 1px var(--cafe-oscuro);
+}
+.capa-Oscura{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(51, 63, 15, 0.273) 0%, rgba(51, 63, 15, 0.273) 100%);
+    border-radius: 20px;
+}
+.cartelTwo .frase-contenedor{
+    display: grid;
+    grid-template-columns: 2fr 60px;
+    background-color: var(--verde-biche);
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    top: 60%;
+    border: solid 1px var(--cafe-oscuro);
+}
+.cartelTwo .frase-contenedor  p{
+    margin: 10px 5px 0 5px;
+}
+.cartelTwo .frase-contenedor .contetImgPlanta{
+    background-color: var(--cafe-oscuro);
+    border-radius: 0 10px 10px 0;
+    height: 60px;
+    border: solid 1px var(--cafe-oscuro);
+}
+.cartelTwo .frase-contenedor .contetImgPlanta img{
+    width: 50px;
+    margin: 2px 0 0 5px;
+}
+
+/*Anuncio*/
+.other-Cartel{
+    background-position-y: 80%;
+}
+.enunciado p{
+    font-size: var(--textosG);
+}
+ /* Nuestro Oficio - Nuestra Vision - Nuestra Mision */
+.contentCard__info .titulosP{
+    font-size: 3rem;
+}
+.contentCard__info .textosP{
+    font-size: 2.8rem;
+}
+.contentCard__img img{
+    width: 60%;
+    padding: 3%;
+}
+/*logo*/
+.logoMaderkiosC img{
+    width: 50%;
+    padding: 10%;
+}

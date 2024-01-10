@@ -6,7 +6,7 @@
     /*fontsise*/
     --textos : 1.6rem;
     --titulos : 2rem;
-    --textosG : 3.2rem;
+    --textosG : 3rem;
     --titulosG : 3.6rem;
 
 
@@ -33,7 +33,7 @@ html{
 }
 /*logo*/
 .cabecera-Conten .conten-logo{
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 .cabecera-Conten .conten-logo h1{
     color: var(--cafe-claro);
@@ -71,6 +71,10 @@ html{
     margin: 10px;
 }
 
+.cartelTwo{
+   display: none;
+}
+
 /*Anuncio*/
 .other-Cartel{
     position: relative;
@@ -83,6 +87,7 @@ html{
     margin-top: 10%;
     border-radius: 20px;
     border: solid var(--cafe-oscuro) 1px;
+    background-position-y: 50%;
 }
 .enunciado{
     position: absolute;
@@ -152,17 +157,13 @@ html{
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, rgba(113, 147, 18, 0.41) 0%, rgba(148, 195, 24, 0.41) 100%);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     border-radius: 20px;
 }
 .card-Mensaje h3{
     position: absolute;
     top: 45%;
 }
-
+/*Logo*/
 .logoMaderkiosC{
     display: flex;
     justify-content: center;
@@ -228,3 +229,8 @@ html{
 }
 
 /*-- Mediaquieris --*/
+@media only screen and (min-width: 500px) {
+    .footer__contactos{
+        justify-content: space-around;
+    }
+}
