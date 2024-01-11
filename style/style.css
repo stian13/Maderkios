@@ -108,6 +108,30 @@ html{
 
     /*Menu Pricinpal*/
 
+/* Proyectos */
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 8%;
+}
+
+.img--proyecs--content{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Se crean columnas automáticamente con un mínimo de 320px y un máximo de 1fr (fracción) */
+    grid-gap: 10px;
+    align-items: stretch;
+}
+
+.img--proyecs--content .img-proyect{
+    width: 100%;
+    min-width: 320px;
+
+    border-radius: 20px;
+    object-fit: cover;   
+}
 /* Nuestro Oficio - Nuestra Vision - Nuestra Mision */
 .contentCard{
     width: 100%;
@@ -226,6 +250,9 @@ html{
 }
 .colorcafeOscuroL{
     color: var(--cafe-oscuro);
+}
+.colorVerdeBicheL{
+    color: var(--verde-biche);
 }
 
 /*-- Mediaquieris --*/

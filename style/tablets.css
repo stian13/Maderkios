@@ -57,10 +57,15 @@
 
 /*Anuncio*/
 .other-Cartel{
+    display: none;
     background-position-y: 80%;
 }
 .enunciado p{
     font-size: var(--textosG);
+}
+/* Proyectos */
+.proyectos .titulosP{
+    font-size: 3rem;
 }
  /* Nuestro Oficio - Nuestra Vision - Nuestra Mision */
 .contentCard__info .titulosP{
