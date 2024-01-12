@@ -220,6 +220,9 @@ html{
     gap: 5%;
     margin-top: 10px;
 }
+.footer__contactos .contactos ul li{
+    list-style: none;
+}
 .footer__contactos .redes--content .imgRedes{
     width: 25px;
     margin-top: 5px;
